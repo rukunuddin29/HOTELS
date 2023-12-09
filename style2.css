@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color:rgb(21, 31, 48);
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar h4 {
+    padding-left: 170px;
+    color: rgb(245, 201, 79);
+  }
+  
+  .navlist {
+    display: flex;
+    flex-direction: coloumn;
+    padding: 20px 50px;
+  }
+  
+  .navlist li {
+    list-style: none;
+    padding-left: 1.5rem;
+    font-size: 20px;
+    padding: 8px;
+  }
+  .navlist button{
+      list-style: none;
+      margin: 20px;
+      margin-top: 0;
+      color: rgb(245, 201, 79);
+      margin-bottom: 0;
+      width: 70px;
+      height: 40px;
+      font-size: 20px;
+      border-radius: 10px;
+      background: transparent;
+    }
+  
+    .button-loginpopup:hover{
+      cursor: pointer;
+      background-color: blue;
+      color: white;
+      box-shadow: 1px 0px 0px 5px rgb(79, 77, 77);
+    }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: black;
+  }
+  .wrapper {
+    width: 500px;
+    height: 450px;
+    background-color: rgba(245, 201, 79, 0.581);
+    position: absolute;
+    top: 140px;
+    z-index: 1;
+    border: 4px solid rgb(21, 31, 48);
+   left: 35%;
+   border-radius: 50px;
+  
+  }
+  .input {
+    text-align: center;
+    padding: 13px;
+    height: 13px;
+  }
+  .login {
+    text-align: center;
+    padding: 40px;
+   
+  }
+  .wrapper {
+    transform: scale(0);
+    transition: 0.2s ease-in;
+    position: absolute;
+  }
+  .wrapper.active-popup {
+    transform: scale(1);
+  }
+  #box {
+   justify-content: center;
+   margin: 20px;
+   padding: 10px;
+  }
+  .cont{
+      background-color: aqua;
+      display: flex;
+      justify-content: center;
+  }
+
+.button-loginpopup{
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    right: 4%;
+    font-size: 20px;
+    color: aliceblue;
+    top: 3%;
+    border: 3px solid rgb(245, 201, 79);
+    border-radius: 10px;
+    background-color: rgb(21, 31, 48);
+}
+#search {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 308px; /* Adjust the left position as needed */
+  z-index: 3; /* Ensure the search box appears above other elements */
+  width: 30%;
+  border: 3px solid rgb(245, 201, 79);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 70px;
+  font-size:20px;
+  padding: 15px 30px;
+  color: black;
+}
+
+#checkin {
+  width: 10%;
+  border: 3px solid rgb(245, 201, 79);
+  height: 65px;
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  z-index: 3;
+}
+
+#checkout {
+  width: 10%;
+  border: 3px solid rgb(245, 201, 79);
+  height: 65px;
+  position: absolute;
+  left: 60%; /* Adjust the left position as needed */
+  top:10px; 
+  left: 60%;
+  z-index: 3;
+}
+
+.submit {
+  position: absolute;
+  z-index: 3; /* Ensure the submit button is below the search box */
+  right: 20px; /* Adjust the right position as needed */
+  width: 10%;
+  border: 3px solid rgb(245, 201, 79);
+  height: 70px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  top: 10px; 
+  left: 70%;
+}
+ 
+.fa-bed{
+    right: 335px;
+    top: 176px;
+    font-size:22px;
+    z-index: calc(1);
+}
+.guest{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 160px;
+    z-index: 2;
+    top: 200px;
+    background-color: yellowgreen;
+    
+}
+.guestbox{
+    
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.text{
+    font-size: 20px;
+    padding: 13px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+.num{
+    padding: 10px;
+    width: 50px;
+    font-size:20px;
+    margin: 10px;
+    height: 10px;
+
+}
+.guest h3 {
+    font-size: x-large    ;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.apply{
+  width: 90px;
+  height: 40px;
+  justify-content: center ;
+  background-color: aqua;
+ 
+  position: absolute;
+}
+.guest{
+  transform: scale(0);
+  transition: 0.2s ease-in;
+  position: absolute;
+}
+.guest.active-popup {
+  transform: scale(1);
+}
+.find {
+  width:70px;
+  height: 70px;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 83%;
+  font-size: 14px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background-color:rgb(245, 201, 79);
+ 
+
+}
+  @media screen and (max-width: 768px) {
+    .find {
+      width: 50%; /* Adjust the width to 100% for smaller screens */
+      top: 220px;   /* Adjust the top position for smaller screens */
+    }
+  }
+  
+
+  
+  #page1Container{
+   width: 100%;
+  height: 1500px;
+  
+  transform: scale(1);
+  transition: 0.2s ease-in;
+  position: absolute;
+  top: 320px;
+  
+  }
+  
+  .page1Filter{
+  width: 90%;
+  height: 60px;
+  border: 2px solid rgb(154, 155, 157);
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 120px;
+  margin: 0px 94px ;
+  
+  }
+   
+  .hotels {
+    width:90%;
+    height: 1200px;
+    margin: -100px 94px;
+    display: flex;
+    flex-wrap: wrap;
+
+    top: -100px;
+    justify-content: space-evenly; 
+  }
+  
+  .hotelDetails {
+    width:300px;
+    height: 350px;
+    border: 2px solid rgb(191, 190, 190);
+    margin-bottom: 30px; 
+    border-radius: 10px;
+  }
+  .hotelDetails :hover {
+    cursor: pointer;
+    
+  }
+  .hotlelPic{
+    height: 220px;
+    border: 2px solid rgba(194, 194, 194, 0.38);
+    width: 296px;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .hName{
+    margin: 4px;
+    font-size: 20px;
+    
+  }
+  .address{
+    font-size: 15px;
+    margin: 4px;
+  }
+  .fa-star{
+  color: brown;
+  font-size:15px;
+  }
+  .footer {
+  width: 99.6%;
+  height: 340px;
+  border: 2px solid black;
+  background-color: rgb(21, 31, 48);
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  bottom: 0%;
+  
+  
+}
+.social{
+ color: rgb(245, 201, 79);
+ height: 60px;
+ width: 400px;
+ position: absolute;
+ right: 100px;
+ margin: 50px;
+
+}
+.social i {
+  font-size: x-large;
+  cursor: pointer;
+ margin: 10px;
+ color: rgb(245, 201, 79);
+  
+}
+
+
+.logof{
+ font-size: 30px;
+font-size: 30px;
+color: rgb(245, 201, 79);
+
+left: 190px;
+margin: 60px;
+position: absolute;
+}
+
+.boxf1{
+  position: absolute;
+  margin: 50px;
+  margin-top: 150px;
+  margin-left: 250px;
+  color: white;
+  font-size: 20px;
+  
+
+}
+.boxf2{
+ position: absolute;
+ right: 170px;
+ margin-top: 150px;
+ color: white;
+ 
+}
+.emailf{
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-bottom: 3px solid black;
+}
+.btnf{
+ width: 100px;
+ height: 40px;
+ border-radius: 10px;
+ font-size: large;
+ background-color:rgb(245, 201, 79);
+}
+.extra{
+  height: 30px;
+  background-color: blueviolet;
+}
+.filters{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.textFilter {
+    color: rgb(21, 31, 48);
+    margin: 30px;
+}
