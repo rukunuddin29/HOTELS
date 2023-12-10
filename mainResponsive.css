@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     /* /////////////////////////footer/////////////////////// */
   .footer{
     width: 99.6%;
@@ -75,11 +75,9 @@
     border: 4px solid rgb(21, 31, 48);
     font-weight: 700;
 }
-
-
 #faq {
         margin: 9px 66px;
-        width: 70%;
+        width: 60%;
         background-color: rgba(245, 201, 79, 0.688);
         border: 2px solid black;
         border-radius: 6px;
