@@ -292,7 +292,7 @@
     z-index: calc(2);
   
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 350px) {
     .navbar {
         background-color: rgb(21, 31, 48);
         display: flex;
