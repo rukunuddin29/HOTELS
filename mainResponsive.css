@@ -1,0 +1,91 @@
+
+@media screen and (max-width: 500px) {
+    /* /////////////////////////footer/////////////////////// */
+  .footer{
+    width: 99.6%;
+    height: 330px;
+    border: 2px solid black;
+    background-color: rgb(21, 31, 48);
+    display: flex;
+    z-index: 1;
+  }
+  .logof{
+        font-size: 23px;
+        color: rgb(245, 201, 79);
+        left: -18px;
+        margin: 60px;
+        position: absolute;
+  }
+  .social i {
+    cursor: pointer;
+    margin: 7px;
+    color: rgb(245, 201, 79);
+}
+.boxf2 {
+    position: absolute;
+    right: 59px;
+    margin-top: 193px;
+    color: white;
+    font-size: 10px;
+}
+.emailf {
+    width: 190px;
+    height: 29px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-bottom: 3px solid black;
+    margin: 31px 15px;
+}
+.about {
+    background-image: url(https://img.freepik.com/free-vector/travel_23-2148038505.jpg?w=740&t=st=1701551511~exp=1701552111~hmac=ec77d99…);
+    height: 402px;
+    width: 80%;
+    margin: 30px 30px;
+    padding: 20px;
+    background-repeat: repeat;
+}
+.social {
+    color: rgb(245, 201, 79);
+    height: unset;
+    width: 173px;
+    position: absolute;
+    right: 21px;
+    margin: 43px;
+}
+.boxf1 {
+    position: absolute;
+    margin: 50px;
+    margin-top: 95px;
+    margin-left: 19px;
+    color: white;
+    font-size: 12px;
+} 
+
+/* /////////////////////////faq//////////////////// */
+.about h2 {
+    margin: 62px 2px;
+    background-image: linear-gradient(to right bottom, rgba(245, 201, 79, 0.686), rgb(146, 196, 237));
+    width: 27px;
+    height: 206px;
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font-size: 40px;
+    border-radius: 1%;
+    border: 4px solid rgb(21, 31, 48);
+    font-weight: 700;
+}
+
+
+#faq {
+        margin: 9px 66px;
+        width: 70%;
+        background-color: rgba(245, 201, 79, 0.688);
+        border: 2px solid black;
+        border-radius: 6px;
+        font-weight: 700;
+        padding: 0px 26px;
+        border: 3.3px solid rgb(27, 41, 65);
+    }
+}
+
