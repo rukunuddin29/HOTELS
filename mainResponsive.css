@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     /* /////////////////////////footer/////////////////////// */
   .footer{
     width: 99.6%;
@@ -46,8 +46,7 @@
 }
 .social {
     color: rgb(245, 201, 79);
-    height: unset;
-    width: 173px;
+    height: unset;    width: 173px;
     position: absolute;
     right: 21px;
     margin: 43px;
@@ -145,6 +144,87 @@
         justify-content: center;
         text-align: center;
         margin: 4em 0px 0px 0px;
+      }
+
+    /* .................why us.............. */
+
+    .container2 {
+        /* display: flex;
+        flex-direction: row;
+        position: relative;
+        padding: 20px;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+         */
+         display: none;
+      }
+      .container2 img {
+         width: 1518px;
+         position: absolute;
+         height: 700px;
+         z-index: calc(-1);
+         opacity: 50%;
+      }
+      .text4{
+        font-size: 35px;
+        top: 70px;
+        left: 10%;
+        margin: 0px 20px 20px;
+        position: absolute;
+         margin: 0px 50px;
+        
+      }
+      .box1{   height: 400px; /* Adjust the height based on your requirements */
+        border: 6px solid rgb(21, 31, 48);
+        margin: 150px 30px;
+        
+        width: 330px;
+        border-radius: 5px;
+      
+      }
+      
+      
+      .box2 {
+        height: 400px; /* Adjust the height based on your requirements */
+        border: 6px solid rgb(21, 31, 48);
+        margin: 150px 20px ;
+        width: 330px;
+        border-radius: 5px;
+      
+      }
+      
+      .box3 {
+      
+        height: 400px; /* Adjust the height based on your requirements */
+        border: 6px solid rgb(21, 31, 48);
+        margin: 150px 20px ;
+        width: 330px;
+        right: 20%;
+        border-radius: 5px;
+       
+      }
+      
+      .box4 {
+        border: 6px solid rgb(21, 31, 48);
+        width: 50%; /* Adjust the width based on your requirements */
+        height: 400px;
+        float: left; /* Float left to keep them in one line */
+        padding: 20px;
+      }
+      
+      .box5 {
+        position: absolute;
+        background-color: aquamarine;
+        width: 719.5px; /* Adjust the width based on your requirements */
+        height: 550px;
+        margin-left: 50%; 
+        position: absolute;
+        top: 1150px;
+        height: 505px;
+        padding: 20px;
+       
+        
       }
 }
 
